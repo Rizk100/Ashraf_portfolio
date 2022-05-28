@@ -1,5 +1,4 @@
 header {
-  background-image: url(assets/header-background-mobile.png);
   position: absolute;
   width: 375px;
   height: 100px;
@@ -35,7 +34,7 @@ header {
   top: 92px;
 }
 
-.headline h2 {
+.headline h1 {
   width: 327px;
   height: 150px;
   font-family: 'Poppins', sans-serif;
@@ -46,6 +45,8 @@ header {
   display: flex;
   align-items: center;
   color: #172b4d;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .para {
@@ -69,6 +70,7 @@ header {
   color: #7f8cff;
 }
 
-.icon {
-  margin-top: 15px;
+.icon li {
+  width: 40px;
+  display: inline-flex;
 }
